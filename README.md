@@ -82,3 +82,12 @@ Future Improvements
 
 * Implement real-time inference with optimized performance.
 ```
+## 📂 Repository Structure
+
+```
+Vehicle-Detection-yoloV8/
+│── input/      # Contains input images and videos for detection
+│── output/     # Stores the processed images and videos after detection
+│── main.ipynb  # Jupyter Notebook for running the YOLOv8 and ResNet50 model
+│── README.md   # Project documentation
+```
