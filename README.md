@@ -1,4 +1,4 @@
-🚘 Vehicle Detection and Color Classification using YOLOv8 and ResNet50 🌈
+# 🚘 Vehicle Detection and Color Classification using YOLOv8 and ResNet50 🌈
 🔎 Overview
 This project focuses on vehicle detection and color classification using deep learning techniques. We utilize a top-view vehicle detection image dataset and a pretrained YOLOv8 model for vehicle type detection. Additionally, for accurate color classification, we integrate our original dataset with the V-COR dataset. A pretrained ResNet50 model is used for color classification. Finally, both models are combined to provide a comprehensive output displaying vehicle type and color.
 
