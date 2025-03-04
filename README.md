@@ -4,19 +4,20 @@ This project focuses on vehicle detection and color classification using deep le
 
 📁 Dataset
 
-🚖 Vehicle Type Detection: A top-view vehicle detection image dataset is used.
+  1.🚖 Vehicle Type Detection: A top-view vehicle detection image dataset is used.
 
-🎨 Color Classification: The V-COR dataset is merged with our original dataset to enhance color classification accuracy.
+  2.🎨 Color Classification: The V-COR dataset is merged with our original dataset to enhance color classification accuracy.
 
 🏗 Models Used
 
-🚘 Vehicle Type Detection: YOLOv8 (pretrained model)
+  1.🚘 Vehicle Type Detection: YOLOv8 (pretrained model)
 
-🌈 Color Classification: ResNet50 (pretrained model)
+  2.🌈 Color Classification: ResNet50 (pretrained model)
 
-🔧 Final Output: Integration of both models to detect vehicle type and color together.
+  3.🔧 Final Output: Integration of both models to detect vehicle type and color together.
 
 Vehicle Detection using YOLOv8
+```
 
 * Loading the pretrained YOLOv8 model.
 
@@ -37,7 +38,9 @@ Vehicle Detection using YOLOv8
 * Combining YOLOv8 and ResNet50 models.
 
 * Displaying final output with detected vehicle type and color.
+```
 Dependencies
+```
 
 * Python 3.x
 
@@ -52,26 +55,32 @@ Dependencies
 * NumPy
 
 * Pandas
+```
 How to Run
 
 Clone the repository:
-
+```
 git clone https://github.com/your-username/vehicle-detection-yolov8.git
 cd vehicle-detection-yolov8
+```
 Install dependencies:
-
+```
 pip install -r requirements.txt
+```
 Results
-
+```
 * The model successfully detects vehicles and classifies them into different types.
 
 * The color classification model enhances accuracy by leveraging the V-COR dataset.
 
 * The integrated model displays both vehicle type and color in the final output.
+```
 Future Improvements
+```
 
 * Enhance dataset quality by including more diverse vehicle images.
 
 * Improve model accuracy using hyperparameter tuning.
 
 * Implement real-time inference with optimized performance.
+```
